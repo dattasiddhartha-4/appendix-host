@@ -42,7 +42,12 @@
                 .attr("y1",yBuffer)
                 .attr("x1",xBuffer+lineLength)
                 .attr("y2",yBuffer)
-                .attr("yN",yBuffer/2+lineLength)
+
+            svgDoc.append("line")
+                .attr("x1",xBuffer+lineLength/2)
+                .attr("y1",yBuffer+lineLength/2)
+                .attr("x1",xBuffer+lineLength/2)
+                .attr("y2",yBuffer-lineLength/2)
             
             //create basic circles
             svgDoc.append("g").selectAll("circle")
