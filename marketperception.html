@@ -34,7 +34,7 @@
             svgDoc.append("text")
                 .attr("x",xBuffer+(lineLength/2))
                 .attr("y",50)
-                .text("dataset"+dataIndex);
+                .text("Competitive Landscape");
             
             //create axis line
             svgDoc.append("line")
@@ -45,7 +45,7 @@
 
             svgDoc.append("line")
                 .attr("x1",xBuffer+lineLength/2)
-                .attr("y1",yBuffer+lineLength/2)
+                .attr("y1",yBuffer-lineLength/2)
                 .attr("x1",xBuffer+lineLength/2)
                 .attr("y2",yBuffer+lineLength/2)
             
