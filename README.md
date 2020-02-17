@@ -1,5 +1,11 @@
 ### Appendix boilerplate with d3.js visualizations loaded
 
+How to use the appendix sites in case comp?
+* [Jekyll site](https://dattasiddhartha-4.github.io/)
+* [d3js site](https://dattasiddhartha-4.github.io/appendix-host/)
+
+[direct link to chart for testing](https://dattasiddhartha-4.github.io/appendix-host/marketperception.html)
+
 Links:
 
 Sankey | sankey.html | energy.json
